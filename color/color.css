@@ -1,0 +1,16 @@
+div {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border: solid 1px #333;
+  transition: all 0.4 ease;
+}
+
+input {
+  display: flex;
+  margin: 10px auto;
+  padding-top: 15px;
+  border: solid 2px black;
+  text-align: center;
+  box-shadow: 2px 2px 2px 0.8 black;
+}

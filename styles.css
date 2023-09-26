@@ -1,0 +1,137 @@
+.product-overview-title {
+  color: black;
+  font-weight: 400;
+}
+
+#product-overview {
+  /* background-image: url("/Assets/neom-QOGeYSi11-w-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: border-box;*/
+
+  /*En una sola liniea lo anterior  */
+  background: url("/Assets/neom-QOGeYSi11-w-unsplash.jpg") left 10% bottom 20% /
+    cover no-repeat border-box;
+
+  color: rgb(212, 212, 197);
+  font-size: 25px;
+  width: 100%;
+  height: 1000px;
+  padding: 10px;
+  margin-top: 45px;
+
+  /* opacity: 0.7; */
+}
+
+.section-title {
+  color: #4585de;
+  text-align: center;
+}
+
+#product-overview h1 {
+  color: rgb(186, 26, 26);
+  text-align: right;
+  margin: 100px 200px;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.plan_list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background-color: #3474c529;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.plan--hightlighted {
+  background-color: #287faeee;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.plan__annotation {
+  background: white;
+  color: #b7c21ce3;
+  padding: 5px 5px 3px 3px;
+  margin: 2px 100px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #0d00fd;
+}
+
+.plan__price {
+  color: #0da3efba;
+}
+
+.plan--hightlighted .plan__title {
+  color: white;
+}
+
+.plan--hightlighted .plan__price {
+  color: black;
+}
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__features li {
+  margin: 10px 0;
+}
+
+#key-features {
+  background: rgba(12, 167, 228, 0.811);
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 20px;
+}
